@@ -12,13 +12,18 @@ const Popup = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    // Show the popup after the component mounts
+    // Show the popup after the component mounts (client-side only)
     setShowPopup(true);
   }, []);
 
   const handleClose = () => {
     setShowPopup(false);
   };
+
+  // Prevent hydration mismatch by not rendering on server
+  if (typeof window === 'undefined') {
+    return null;
+  }
 
   return (
     showPopup && (

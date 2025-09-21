@@ -16,7 +16,7 @@ const recentActivities: RecentActivity[] = [
     user: {
       name: 'Olivia Martin',
       email: 'olivia.martin@email.com',
-      avatar: '/avatars/01.png',
+      avatar: '/avatars/01.svg',
       initials: 'OM',
     },
     activity: 'Cleaned Water Body X',
@@ -27,7 +27,7 @@ const recentActivities: RecentActivity[] = [
     user: {
       name: 'Jackson Lee',
       email: 'jackson.lee@email.com',
-      avatar: '/avatars/02.png',
+      avatar: '/avatars/02.svg',
       initials: 'JL',
     },
     activity: 'Removed debris from Water Body Y',
@@ -38,7 +38,7 @@ const recentActivities: RecentActivity[] = [
     user: {
       name: 'Isabella Nguyen',
       email: 'isabella.nguyen@email.com',
-      avatar: '/avatars/03.png',
+      avatar: '/avatars/03.svg',
       initials: 'IN',
     },
     activity: 'Updated water quality report for Water Body Z',
@@ -49,7 +49,7 @@ const recentActivities: RecentActivity[] = [
     user: {
       name: 'William Kim',
       email: 'will@email.com',
-      avatar: '/avatars/04.png',
+      avatar: '/avatars/04.svg',
       initials: 'WK',
     },
     activity: 'Scheduled maintenance for Water Body A',
@@ -60,7 +60,7 @@ const recentActivities: RecentActivity[] = [
     user: {
       name: 'Sofia Davis',
       email: 'sofia.davis@email.com',
-      avatar: '/avatars/05.png',
+      avatar: '/avatars/05.svg',
       initials: 'SD',
     },
     activity: 'Conducted pH level check for Water Body B',

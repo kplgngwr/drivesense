@@ -4,7 +4,7 @@ export function RecentSales() {
   const activities = [
     {
       id: 1,
-      avatar: "/avatars/01.png",
+      avatar: "/avatars/01.svg",
       fallback: "RK",
       title: "Rakesh Kumar",
       description: "Delivered items using Tata Bolero",
@@ -12,7 +12,7 @@ export function RecentSales() {
     },
     {
       id: 2,
-      avatar: "/avatars/02.png",
+      avatar: "/avatars/02.svg",
       fallback: "NB",
       title: "New Vehicle Added",
       description: "Mahindra Scorpio added to fleet",
@@ -20,7 +20,7 @@ export function RecentSales() {
     },
     {
       id: 3,
-      avatar: "/avatars/03.png",
+      avatar: "/avatars/03.svg",
       fallback: "AK",
       title: "Ajay Kapoor",
       description: "Joined as a new driver",
@@ -28,7 +28,7 @@ export function RecentSales() {
     },
     {
       id: 4,
-      avatar: "/avatars/04.png",
+      avatar: "/avatars/04.svg",
       fallback: "VR",
       title: "Vehicle Repair",
       description: "Tata Ace sent for maintenance",
@@ -36,7 +36,7 @@ export function RecentSales() {
     },
     {
       id: 5,
-      avatar: "/avatars/05.png",
+      avatar: "/avatars/05.svg",
       fallback: "DL",
       title: "Delivery Completed",
       description: "John Smith delivered items using Ashok Leyland",

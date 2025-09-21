@@ -115,17 +115,17 @@ const Truck: React.FC = () => {
       if (modelRef.current) {
         modelRef.current.rotation.x = THREE.MathUtils.lerp(
           modelRef.current.rotation.x,
-          gyroRef.current.y / 4,
+          gyroRef.current.y,
           0.1
         );
         modelRef.current.rotation.y = THREE.MathUtils.lerp(
           modelRef.current.rotation.y,
-          gyroRef.current.z / 4,
+          gyroRef.current.z,
           0.1
         );
         modelRef.current.rotation.z = THREE.MathUtils.lerp(
           modelRef.current.rotation.z,
-          gyroRef.current.x / 4,
+          gyroRef.current.x,
           0.1
         );
 
