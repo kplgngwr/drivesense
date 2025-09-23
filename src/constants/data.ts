@@ -53,6 +53,12 @@ export const navItems: NavItem[] = [
     label: 'Driver Score'
   },
   {
+    title: 'Parental Control',
+    href: 'https://parents-contorl.vercel.app/',
+    icon: 'url',
+    label: 'External Link'
+  },
+  {
     title: 'Settings',
     href: '/dashboard/settings',
     icon: 'settings',
